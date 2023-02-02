@@ -1,0 +1,197 @@
+
+*{
+    font-family:'Poppins', sans-serif;
+    margin: 0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-track{
+    background-color:white ;
+}
+html::-webkit-scrollbar-thumb{
+    background-color:rgb(236, 179, 9);
+}
+
+body{
+    background: white;
+}
+.header{
+    position: relative;
+}
+.image_header img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.header_nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    left: 253px;
+    right: 0;
+    padding: 0 20px;
+    
+}
+
+.header_nav .feane{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 20px;
+
+}
+.header_nav .navBar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header_nav .navBar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.header_nav .navBar a:hover{
+    color: orange;
+}
+ .icone{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+   
+}
+.icone img{
+    fill: white;
+}
+.header_nav  .button_header{
+    background: orange;
+    width: 100%;
+    height: 20px;
+    border: 25px;
+}
+
+
+.sub_header{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    bottom: 456px;
+    left: 161px;
+
+}
+.sub_header h2{
+    color: white;
+    font-size: 50px;
+   
+}
+
+.sub_header .emblem{
+    color: white;
+    font-size: 10px;
+    line-height: 15px;
+    padding:  15px 0;
+}
+
+.sub_header button{
+    width: 50%;
+    background: rgb(224, 166, 58);
+    height: 30px;
+    color: white;
+    border-radius: 25px;
+
+}
+.sub_header .boule {
+    display: flex;
+    justify-content: normal;
+    padding: 0 10px;
+    top: 96px;
+    position: relative;
+   
+}
+.sub_header .boule .b{
+    background: white;
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+    margin: 0 4px;
+    border-radius: 50px;
+}
+.sub_header .boule .b:hover{
+    background: orange;
+}
+
+ .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+ .menu .card{
+    position: relative;
+    top: 70px;
+   display: flex;
+   align-items: center;
+   background: rgb(4, 4, 73);
+    width: 700px;
+    height: 400px;
+  
+}
+ .image_card img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    left: 20px;
+}
+
+.menu .card .info-menu{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 60px;
+}
+.menu .card .info-menu h6{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.menu .card .info-menu p{
+    color: white;
+    font-size: 30px;
+    padding: 15px 0;
+}
+.menu .card .info-menu span{
+    font-size: 15px;
+}
+.menu .card .info-menu button{
+    background: orange;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+
+}
+main .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 200;
+    color: black;
+    font-size: 30px;
+}
