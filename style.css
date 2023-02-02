@@ -34,20 +34,21 @@ body{
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     top: 0;
-    left: 253px;
-    right: 0;
+    left: 0;
     padding: 0 20px;
-    
+    right: 0px;
+    margin-top: 2rem;
 }
 
-.header_nav .feane{
-    position: absolute;
+.header_nav .feane h6{
+    position: relative;
     color: white;
-    font-size: 30px;
-    left: 20px;
-
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+   float: right;
 }
 .header_nav .navBar{
     color: white;
@@ -65,34 +66,42 @@ body{
 .header_nav .navBar a:hover{
     color: orange;
 }
- .icone{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 10px;
-   
-}
+
 .icone img{
-    fill: white;
-}
-.header_nav  .button_header{
-    background: orange;
-    width: 100%;
+    width: 20px;
     height: 20px;
-    border: 25px;
+    margin: O 20px;
+}
+.icone img:hover{
+    background: orange;
+}
+.header_nav  .button_header button{
+    background: orange;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 25px;
+    color: white;
+    position: relative;
+    right:10rem;
 }
 
 
 .sub_header{
     position: absolute;
     display: flex;
-    justify-content: left;
     flex-direction: column;
-    bottom: 456px;
-    left: 161px;
 
 }
-.sub_header h2{
+.sub_header .sub_header_title{
+    position: absolute;
+    font-size: 2rem;
+    padding-bottom: 3px;
+    bottom: 600px;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 140px;
+}
+.sub_header  .sub_header_title h2{
     color: white;
     font-size: 50px;
    
