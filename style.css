@@ -10,7 +10,7 @@
 }
 
 html::-webkit-scrollbar{
-    width: 1rem;
+    width: .8rem;
 }
 html::-webkit-scrollbar-track{
     background-color:white ;
@@ -154,8 +154,8 @@ body{
    display: flex;
    align-items: center;
    background: rgb(4, 4, 73);
-    width: 700px;
-    height: 400px;
+    width: 40rem;
+    height: 20rem;
   
 }
  .image_card img{
@@ -195,12 +195,86 @@ body{
     border-radius: 50px;
 
 }
-main .title{
+.menu .card .info-menu img{
+    width: 10x;
+    height: 10px;
+    margin-left: 40px;
+}
+
+.menu-card{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.menu-card .menu-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu-card .menu-block .title{
     text-align: center;
-    font-weight: 200;
-    color: black;
-    font-size: 30px;
+    font-size: 2rem;
+    color: rgb(17, 16, 16);
+    font-weight: 300;
+    margin-top: 8rem;
+}
+
+.menu-card .menu-block .menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+
+}
+
+.menu-card .menu-block .menu-list li{
+   margin: 0 25px;
+    list-style: none;
+    font-weight: 100;
+    font-size: 1rem;
+}
+ .menu-list li .osd{
+    background: black;
+    color: white;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 25px;
+}
+
+.box-container{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit minmax(35rem, 2fr));
+}
+
+.box-container .box{
+    
+    box-shadow: 10px 5px 5px rgb(29, 28, 28, .1); ;
+    border-radius: 0.5rem;
+    padding: 4rem;
+    background:rgb(131, 126, 126);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box-container .box h2{
+    color: white;
+    font-size: 2rem;
+}
+.box-container .box p{
+    color: white;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 1rem;
+    padding-top: 4rem;
 }
