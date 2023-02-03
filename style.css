@@ -243,23 +243,31 @@ body{
 }
 
 .box-container{
-    display: grid;
-    gap: 3rem;
-    grid-template-columns: repeat(auto-fit minmax(35rem, 2fr));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
 }
 
-.box-container .box{
-    
-    box-shadow: 10px 5px 5px rgb(29, 28, 28, .1); ;
-    border-radius: 0.5rem;
-    padding: 4rem;
-    background:rgb(131, 126, 126);
+.box-container .box{ 
+    padding: 4rem 0;
     text-align: center;
     position: relative;
     overflow: hidden;
     z-index: 0;
-}
 
+}
+.box .haut{
+    background: rgb(82, 38, 38);
+    height: 50vh;
+    border-radius: 100px 100px 100px  ;
+}
+.box .bas{
+    background: black;
+    height: 60vh;
+}
 .box-container .box img{
     height: 10rem;
     width: 10rem;
